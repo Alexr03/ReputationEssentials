@@ -1,0 +1,12 @@
+language: csharp
+solution: ReputationEssentials.sln
+cache: bundler
+script:
+  - xbuild /p:Configuration=Debug ReputationEssentials.sln
+deploy:
+  provider: releases
+  api_key: "12c4fbd9e9dcd8e9ac0f37a786024a2d9085fa91"
+  file: "/bin/debug/ReputationEssentials.sln"
+  skip_cleanup: true
+  on:
+    tags: true
