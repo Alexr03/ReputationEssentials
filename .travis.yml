@@ -3,26 +3,3 @@ solution: ReputationEssentials.sln
 cache: bundler
 script:
   - xbuild /p:Configuration=Debug ReputationEssentials.sln
-
-after_success:
-  - git config --global user.email "builds@travis-ci.com"
-  - git config --global user.name "Travis CI"
-  - export GIT_TAG=build-$TRAVIS_BRANCH-$(date -u "+%Y-%m-%d-%H-%M-%S")-$TRAVIS_BUILD_NUMBER
-  - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-  - git push origin $GIT_TAG
-
-deploy:
-  provider: releases
-  api_key: "1fe114ce00b2f7cb084eb228e879a611ef3648c1"
-  file: "/ReputationEssentials/bin/debug/ReputationEssentials.sln"
-  skip_cleanup: true
-  on:
-    tags: true
-
-branches:
-  except:
-    - /^*-v[0-9]/
-    
-env:
-  global:
-    secure: "1fe114ce00b2f7cb084eb228e879a611ef3648c1"
