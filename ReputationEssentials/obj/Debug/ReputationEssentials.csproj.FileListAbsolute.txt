@@ -1,0 +1,11 @@
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\ReputationEssentials.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\ReputationEssentials.pdb
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\Assembly-CSharp-firstpass.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\Assembly-CSharp.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\Rocket.API.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\Rocket.Core.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\Rocket.Unturned.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\bin\Debug\UnityEngine.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\obj\Debug\ReputationEssentials.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\obj\Debug\ReputationEssentials.dll
+c:\users\alex\documents\visual studio 2015\Projects\ReputationEssentials\ReputationEssentials\obj\Debug\ReputationEssentials.pdb
