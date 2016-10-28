@@ -14,7 +14,15 @@ after_success:
 deploy:
   provider: releases
   api_key: "1fe114ce00b2f7cb084eb228e879a611ef3648c1"
-  file: "/bin/debug/ReputationEssentials.sln"
+  file: "/ReputationEssentials/bin/debug/ReputationEssentials.sln"
   skip_cleanup: true
   on:
     tags: true
+
+branches:
+  except:
+    - /^*-v[0-9]/
+    
+env:
+  global:
+    secure: "1fe114ce00b2f7cb084eb228e879a611ef3648c1"
